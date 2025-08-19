@@ -3,6 +3,11 @@
 // Escribe una función que tome tres números como argumentos 
 // y retorne el mayor de ellos. Llama a la función con diferentes valores e imprime el resultado.
 
+
+var1=5
+var2=6
+var3=8
+
 function mayor(num1, num2,num3){
     if (num1>num2 && num1>num3)
         return num1
@@ -11,7 +16,7 @@ function mayor(num1, num2,num3){
     else
         return num3
 }
-console.log(mayor(5,6,15)) 
+console.log(mayor(var1,var2,var3)) 
 
 // 2. Ejercicio 2: Función Expresada
 // https://www.w3schools.com/js/js_functions.asp
@@ -19,11 +24,9 @@ console.log(mayor(5,6,15))
 // retorne un string que concatena todos los elementos del array separados por espacios.
 
 let concaenar= function(array){
-    return array.join(' ') //usabamos este??
-
+    return array.join(' ') //usabamos este?? si 
 }
 console.log(concaenar(["hola", "como", "estas"]))
-
 
 // 3. Ejercicio 3: Función Flecha
 // https://www.w3schools.com/js/js_arrow_function.asp
