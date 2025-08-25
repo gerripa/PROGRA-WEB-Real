@@ -182,6 +182,11 @@ console.log(total); // 15
 // Corchetes [ ] → para arrays y para acceder a posiciones.
 
 
+//html 
+
+
+
+
 
 
 
