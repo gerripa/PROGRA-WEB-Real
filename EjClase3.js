@@ -21,6 +21,8 @@ console.log(mayor(var1,var2,var3))
 // Crea una función expresada que reciba un array de strings y 
 // retorne un string que concatena todos los elementos del array separados por espacios.
 
+
+
 //es mejor crearlo como variable?? al array 
 let concadenar= function(array){
     return array.join(' ') //usabamos este?? si 

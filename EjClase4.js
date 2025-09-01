@@ -2,8 +2,7 @@
 // https://www.w3schools.com/js/js_loop_for.asp
 // Escribe un ciclo for que imprima los números pares entre 1 y 20.
 
-let 
-
+for (let i=2; i<=20; i+=2){console.log(i)}
 
 
 // 2. Ejercicio 
@@ -11,6 +10,8 @@ let
 // https://www.w3schools.com/js/js_arrays.asp
 // Crea un array con los nombres de tus cinco películas favoritas y usa un ciclo for para 
 // imprimirlas con su respectivo número de posición (ej. "1. El Padrino").
+
+let 
 
 
 // 3. Ejercicio 3: Métodos de Arrays
