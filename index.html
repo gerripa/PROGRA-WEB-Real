@@ -1,51 +1,69 @@
-<!--
+<!-- con apretar solo "!" ya me pone la base solocon apretar solo "!" ya me pone la base solo -->
 
-coemntarios 
-todo lo q esta en la linea 6 y 14 es htlm
+<!--EJERCICIO 1 Estructura básica: Escribí el código HTML de index.html con <html>, <head>, <body> y <title> con tu nombre. -->
 
-
-Lorem , te pone texto algo asi
-
-no es necario cerrar br 
-
-rutas relativas , para las imagenes 
-
-subir la carpeta IMAGES 
-
-pegar enlaces externos (prgas el link?)\\\
-
-div -> blcok nos marca el ancho completo
-span-> in line es el q marca las etiquetas 
-h1 -> in line
-p -> block
-image-> in line
-
-primero tiene q cargar el html y despeus el js
-
-index.html (si o si c tiene q llaamr asi)
-
-crear un nuevo repositorio ahroa y a la pagina 
-
-
--->
-
-
-<!DOCTYPE html> <!--  me dice q voy a escribir en esta etiqueta-->
-<html lang="en"> <!-- lenguaje en ingles, en el arabe si lo cambiamos-->
-
-<head> <!--todo lo que mi ordenador necesita para -->
-    <meta charset="UTF-8"> <!-- meta, se refiere a si mismo, utf = conjunto de caracteres, -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--dice q el contendido inicial el ancho total va opcupar el ancho de nuestro dispositivo, y la escala es 1-->
-    <title>Document</title>
+    <title>Guada Erripa</title>
 </head>
-
 <body>
-    </head>
-    <h1>TAYLOR SWIFT </h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non saepe <br> rerum facilis quam a id sed.
-    Dicta, <br> accusantium distinctio! Voluptas repellat expedita accusamus minima recusandae, repudiandae id ut saepe.
-    <img src="images/taylor1.jpg" alt="taylor">
+    <h1> Pagina web de Guada Erripa</h1>
+    <p> Estoy haciendo la guia 4, todo ok por ahora jaja bueno chau</p>
+    <img src="images/taylor1.jpg" alt="Foto de Taylor Swift">"
+
+    <!--Secciones semánticas -->
+    <header>
+        <h2>Bienvenidos al Eras tour</h2>
+    </header>
+
+    <main> <p>Este/aca va el contenido principal de la pagina web</p>
+        <!-- Navegación interna -->
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#a1">Ir al Artículo 1</a></li>
+                    <li><a href="#a2">Ir al Artículo 2</a></li>
+                </ul>
+            </nav>
+
+            <!-- Artículos que son el destino de los links -->
+            <article id="a1">
+                <h3>Artículo 1</h3>
+                <p>Contenido del primer artículo.</p>
+            </article>
+
+            <article id="a2">
+                <h3>Artículo 2</h3>
+                <p>Contenido del segundo artículo.</p>
+            </article>
+            
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer> 
+        <p> Gudalupe Erripa - 2025 </p>
+    </footer>
+    
 </body>
-<script 
+</html>
+
+
+
+<!-- EJERCICIO 2: Encabezados y párrafos Escribí el código HTML con <h1> “Mi primera página web” y un <p> con una breve bio. 
+    esto iria adentro del body, el la parte principal de la pagina DONNNE
+    📌Regla: Todo lo que querés que se vea (títulos, párrafos, imágenes, etc.) va dentro de <body>.
+        Todo lo que es configuración de la página (título de pestaña, meta, estilos, scripts) va en <head>.-->
+
+<!-- EJERCICIO 3 Imagen con alt: Escribí el código HTML para insertar una imagen con <img src="..." alt="...">. -->
+<!-- EJERCICIO 4 Secciones semánticas: Escribí el código HTML con <header>, <main>, <footer>. En el footer colocá tu nombre y el año. -->
+<!-- EJERCICIO 5 Artículos y navegación interna: Escribí el código HTML con <nav> y dos enlaces internos 
+    a <article id="a1"> y <article id="a2"> dentro de una <section>. -->
+<!-- La navegación interna (Ejercicio 5) va dentro del <main>, porque forma parte del contenido principal de tu página. -->
+
+
+
 
